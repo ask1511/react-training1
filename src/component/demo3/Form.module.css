@@ -1,0 +1,57 @@
+.form {
+  background: #fff;
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.control {
+  margin-bottom: 1rem;
+}
+
+.control label {
+  display: block;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  color: #555;
+  width: 90%;
+  max-width: 30rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.control input:focus {
+  outline: none;
+}
+
+.control input::placeholder {
+  color: #ccc;
+}
+
+.actions {
+  margin-top: 2rem;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.actions button:active,
+.actions button:hover {
+  background: #ddd;
+}

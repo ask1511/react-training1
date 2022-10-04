@@ -1,0 +1,44 @@
+.header {
+  background: lightseagreen;
+  color: #fff;
+  width: 100%;
+  height: 5rem;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h2 {
+  color: darkblue;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header ul li {
+  margin-left: 2rem;
+}
+
+.header ul li a,
+.header button {
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  color: darkblue;
+  padding: 0.5rem 1rem;
+  background: yellowgreen;
+  border: 1px solid yellowgreen;
+  border-radius: 5px;
+}
+
+.header ul li a:active,
+.header ul li a:hover,
+.header button:active,
+.header button:hover {
+  background: #d3d318;
+}

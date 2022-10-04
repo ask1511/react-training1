@@ -1,0 +1,15 @@
+.item {
+  background: #eee;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.item h2 {
+  margin-bottom: 0.5rem;
+}
+
+.item p {
+  color: #888;
+}

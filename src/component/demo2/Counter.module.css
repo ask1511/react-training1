@@ -1,0 +1,35 @@
+.counter {
+  background: #b6b663;
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #b6b663;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.counter h2 {
+  font-size: 2rem;
+  color: #273333;
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.actions button {
+  font: inherit;
+  /* font-size: 1.5rem; */
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background: #5151c5;
+  color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+.home {
+  width: 90%;
+  max-width: 40rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 5rem auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
