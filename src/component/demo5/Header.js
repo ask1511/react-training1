@@ -13,17 +13,19 @@ const Header = () => {
     <header className={styles.header}>
       <h2>PNC Bank</h2>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Profile</a>
-          </li>
+      {autCtx.isLoggedIn && (
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Profile</a>
+            </li>
 
-          <li>
-            <button onClick={logoutHandler}>Logout</button>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <button onClick={logoutHandler}>Logout</button>
+            </li>
+          </ul>
+        </nav>
+      )}
     </header>
   );
 };
